@@ -1,0 +1,38 @@
+{
+  "name": "dumber",
+  "version": "1.0.0",
+  "description": "dumbing down the internet through dictionary replacing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "setup": "webpack -w",
+    "start": "nodemon ./Server/index.js"
+  },
+  "author": "Bartow",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "google-maps-react": "^2.0.2",
+    "helmet": "^3.14.0",
+    "jQuery": "^1.7.4",
+    "jsdom": "^13.2.0",
+    "lyft-node": "0.0.5",
+    "node-uber": "^2.0.0",
+    "nodemon": "^1.18.4",
+    "oxford-dictionary": "^1.4.1",
+    "path": "^0.12.7",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-string-replace": "^0.4.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

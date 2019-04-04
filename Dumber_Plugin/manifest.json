@@ -1,0 +1,32 @@
+{
+"manifest_version": 2,
+    "name": "Dumbr",
+    "description": "Click to define words in-text",
+    "version": "1.1",
+    "background": {
+        "scripts": ["toggle.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "permissions": ["activeTab"],
+    "browser_action": {
+        "default_icon": {
+            "32": "images/dumbr32Off.png"
+            },
+        "default_title": "icon"
+     },
+    "icons": {
+        "16": "images/dumbr16.png",
+        "32": "images/dumbr32Off.png",
+        "48": "images/dumbr48.png",
+        "128": "images/dumbr128.png"
+    }
+}
